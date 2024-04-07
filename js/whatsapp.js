@@ -32,7 +32,7 @@ document.getElementById("boton-whatsapp2").addEventListener("click", function() 
     });
 });
 
-// Cuando se hace clic en el botón, generar el enlace de WhatsApp planes
+// Cuando se hace clic en el botón, generar el enlace de WhatsApp planes inhabilitado pendiente crear seccion de planes de pago
 document.getElementById("boton-whatsapp3").addEventListener("click", function() {
     cargarConfiguracion(function(configuracion) {
         var numero = configuracion.telefono;
